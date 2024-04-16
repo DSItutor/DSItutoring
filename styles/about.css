@@ -1,0 +1,123 @@
+  body {
+      /* Center the content vertically and horizontally */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+  }
+
+  header {
+      /* Display the header as a horizontal row */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      background-color: #000000;
+      box-sizing: border-box;
+  }
+
+  nav {
+      /* Display the navigation menu as a horizontal row */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+
+      /* background-color: #ddd; */
+      padding: 10px;
+      height: 100%;
+      box-sizing: border-box;
+  }
+
+  nav a {
+      /* Style the links in the navigation menu */
+      text-decoration: none;
+      color: #d7d2d2;
+      padding: 10px;
+      margin: 5px;
+      display: inline-block;
+  }
+
+  nav a:hover {
+      /* Style the links when the mouse hovers over them */
+      background-color: #4b1290;
+  }
+
+  .logo img {
+      /* Style the logo */
+      height: 100px;
+      width: 100px;
+  }
+
+  .People {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+      height: fit-content;
+
+  }
+
+
+  br {
+      /* Display the <br> element as a white line */
+      display: block;
+      height: 2px;
+      background-color: #fff;
+      margin: 10px 0;
+  }
+
+  h1,
+  p {
+      color: #d7d2d2;
+  }
+
+  button {
+      /* Style the button */
+      padding: 10px;
+      background-color: #4b1290;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      /* Make the button fill the container horizontally */
+      width: 100%;
+      max-width: 200px;
+
+      /* Center the button vertically in the container */
+      align-self: center;
+  }
+
+  button:hover {
+      /* Style the button when the mouse hovers over it */
+      background-color: #360f6f;
+  }
+
+  .container {
+      display: inline-block;
+  }
+
+  .content-info {
+      display: inline;
+      color: aliceblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .aboutus {
+      color: #360f6f;
+  }
+
+  .text-container {
+      color: wheat;
+  }
+
+  .about {
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: aliceblue;
+      text-transform: italic;
+  }
